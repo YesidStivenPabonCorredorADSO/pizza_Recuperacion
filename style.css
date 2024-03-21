@@ -19,8 +19,6 @@
   --rojo: #FF0000;
   --negro: #000000;
 }
-
-
 .nav{
   z-index: 10;
 }
@@ -32,44 +30,41 @@
 .flex-end{
   justify-content: flex-end;
 }
-.flex-justify-center{
+.justify-center{
   justify-content: center;
   width: 100%;
 }
-.flex-space-evelyn{
+.space-evelyn{
   justify-content: space-evenly;
 }
-.flex-column{
+.column{
   flex-direction: column;
 }
-.flex-aling-center{
+.aling-center{
   align-items: center;
 }
-.flex-column-end{
+.column-end{
   align-items: end; 
 }
-.flex-space-between{
+.space-between{
   justify-content: space-between;
 }
 .flex-space-around{
   justify-content: space-around;
 }
-
-
 /* width */
-.width{
+.wi_dth{
   width: 100%;
 }
-.width-70{
+.wi_dth-70{
   width: 70%;
 }
-.width-50{
+.wi_dth-50{
   width: 50%;
 }
 .max-width{
   max-width: 1720px;
 }
-
 /* heigth */
 .heigth{
   height: 200px;
@@ -88,14 +83,14 @@
 .verde{
   background-color: green;
 }
-.beige{
+.fondo{
   background-color: #e8e6a6;
 }
 .amarillo{
   background-color: #ffe100;
 }
 /* colors text */
-.color_black{
+.color__humilde{
   color: var(--negro);
 }
 .color_white{
@@ -104,7 +99,9 @@
 .color_yellow{
   color: #ffe100;
 }
-
+.beige{
+  background-color: #e8e6a6;
+}
 /* image */
 .logo{
   width: 10vw;
@@ -216,23 +213,21 @@
 .margin-botton-20{
   margin-bottom: 20vh;
 }
-
-
 /* text */
-.text__Header1{
+.text__header1{
   font-family: "Montserrat", sans-serif;
   font-size: 1.2em;
   font-weight: 900;
 }
-.text__Header1-small{
+.text__header1-small{
   font-family: "Montserrat", sans-serif;
   font-size: 1.3rem;
 }
-.text__Header2_big{
+.text__header2_big{
   font-family:  "Fredericka the Great", serif;
   font-size: 3rem;
 }
-.text__Header2{
+.text__header2{
   font-family: "Fredericka the Great", serif;
   font-size: 1.5rem;
 }
@@ -275,7 +270,6 @@
 .text_center{
   text-align: center;
 }
-
 /* Icons */
 .icon-smarphone{
   font-size: 5rem;
@@ -288,12 +282,10 @@
   top: 535vh;
   right: 5vw;
 }
-
-/* list */
+/* listas */
 .list-none{
   list-style: none;
 }
-
 /* articles */
 .article{
   width: 100%;
@@ -313,24 +305,14 @@
 .article4{
 height: 95vh;
 }
-
-/* button */
+/* buttones */
 .button{
   padding: 1rem 2rem 1rem 2rem;
   transition: 0.5s ease, transform 0.5s ease;
-}
-.button:hover{
-  color: white;
-  background-color: var(--negro);
-  cursor: pointer;
+  /* background-color: yellow; */
 }
 .button2{
   transition: 0.5s ease, transform 0.5s ease;
-}
-.button2:hover{
-  color: white;
-  background-color: var(--negro);
-  cursor: pointer;
 }
 .circular-btn {
   display: inline-block;
@@ -346,11 +328,9 @@ height: 95vh;
   cursor: pointer;
   transition: background-color 0.3s;
 }
-
 .circular-btn:hover {
   background-color: #2980b9;
 }
-
 /* Border */
 .border{
   border: solid var(--negro) .5px;
@@ -359,9 +339,8 @@ height: 95vh;
   border: none;
 }
 .radius{
-  border-radius: 20px;
+  border-radius: 17px;
 }
-
 .clip-path-1{
   z-index: -1;
   clip-path: polygon(0 0%, 43% 0, 76% 100%, 0% 100%);
@@ -378,16 +357,14 @@ height: 95vh;
   height: 100%;
   position: absolute;
 }
-
-/* Gap */
+/* gap */
 .gap{
   gap: 20px;
 }
-
 /* Padding */
 .padding{
-  padding: 40px;
+  padding: 33px;
 }
 .padding-edit{
-  padding: 37px;
+  padding: 29px;
 }
